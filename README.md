@@ -1,6 +1,5 @@
 # docker-cmd
-common docker commands
-xxx
+common docker commands  \nxxxxx
 
 # 镜像命令
 docker pull ubuntu:16.04     # 拉取ubuntu16.04镜像
