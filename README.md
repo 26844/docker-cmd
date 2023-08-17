@@ -20,14 +20,6 @@ docker rm container_id         # 删除指定容器<br>
 docker export <容器ID> -o <文件名>.tar #导出容器到本地文件<br>
 docker exec -it nginx /bin/sh  # 进入正在运行的nginx容器中 <br>
 
-# 其他命令 
-docker info #查看docker daemon信息<br>
-docker login                   # 登录Docker Hub<br>
-docker search mysql            # 搜索mysql镜像<br>
-docker commit container_id     # 从容器创建镜像<br>
-docker network ls              #查看网络<br>
-docker volume ls #查看卷<br>
-
 # compose命令
 docker-compose up -d          # 启动项目,均在compose.yml文件目录下执行<br>          
 docker-compose down          # 停止项目  <br>
@@ -46,3 +38,11 @@ docker-compose logs -f --tail 100 nginx #滚动查看nginx近100条日志<br>
 
 # redis相关
 docker exec -it redis redis-cli #redis-cli命令行连接redis容器<br>
+
+# 其他命令 
+docker info #查看docker daemon信息<br>
+docker login                   # 登录Docker Hub<br>
+docker search mysql            # 搜索mysql镜像<br>
+docker commit container_id     # 从容器创建镜像<br>
+docker network ls              #查看网络<br>
+docker volume ls #查看卷<br>
