@@ -2,7 +2,7 @@
 common docker commands
 
 # 镜像命令
-docker pull ubuntu:16.04     # 拉取ubuntu16.04镜像
+docker pull ubuntu:16.04     #拉取ubuntu16.04镜像
 docker images                 # 列出本地镜像
 docker rmi ubuntu:16.04      # 删除ubuntu16.04镜像
 
