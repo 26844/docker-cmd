@@ -6,7 +6,7 @@ docker pull ubuntu:16.04     # 拉取ubuntu16.04镜像<br>
 docker images                 # 列出本地镜像<br>
 docker rmi ubuntu:16.04      # 删除ubuntu16.04镜像<br>
 
-dcoker import - new-image-name:v1 < image.tar #导入本地镜像,可以给镜像指定新名称
+dcoker import - new-image-name:v1 < image.tar #导入本地镜像,可以给镜像指定新名称<br>
 docker save imageid > xxx.tar #保存镜像<br>
 docker save -o xxx.tar imagexx:latest #指定标签，保存镜像<br>
 docker load < xxx.tar #载入镜像,不能对载入的镜像重命名<br>
