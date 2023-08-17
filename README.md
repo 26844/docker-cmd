@@ -10,7 +10,6 @@ dcoker import - new-image-name:v1 < image.tar #导入本地镜像,可以给镜�
 docker save imageid > xxx.tar #保存镜像<br>
 docker save -o xxx.tar imagexx:latest #指定标签，保存镜像<br>
 docker load < xxx.tar #载入镜像,不能对载入的镜像重命名<br>
-
 docker build -t nginx:v1 .     # 使用Dockerfile创建nginx镜像<br>
 
 # 容器命令
