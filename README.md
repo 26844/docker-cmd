@@ -1,2 +1,2 @@
 # docker-cmd
-common docker commands
+common docker and k8s commands
