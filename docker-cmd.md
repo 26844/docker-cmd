@@ -18,8 +18,8 @@ docker export <容器ID> -o <文件名>.tar #导出容器到本地文件<br>
 docker exec -it nginx /bin/sh  # 进入正在运行的nginx容器中 <br>
 
 # compose命令
-docker-compose up -d          # 启动项目,均在compose.yml文件目录下执行<br>          
-docker-compose down          # 停止项目  <br>
+docker-compose up -d          # 启动所有服务,均在compose.yml文件目录下执行<br>          
+docker-compose down          # 停止所有服务  <br>
 docker-compose logs -f       # 滚动查看实时日志<br>
 docker-compose ps            # 列出项目中的容器   <br>
 docker-compose restart       # 重启项目中的容器   <br>
