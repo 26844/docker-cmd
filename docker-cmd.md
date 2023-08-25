@@ -19,10 +19,9 @@ docker exec -it nginx /bin/sh  # 进入正在运行的nginx容器中 <br>
 
 # compose命令
 docker-compose up -d          # 启动所有服务,均在compose.yml文件目录下执行<br>          
-docker-compose down          # 停止所有服务  <br>
 docker-compose logs -f       # 滚动查看实时日志<br>
 docker-compose ps            # 列出项目中的容器   <br>
-docker-compose restart       # 重启项目中的容器   <br>
+docker-compose start|restart|down       # 启动|重启|停止所有服务   <br>
 docker-compose exec nginx /bin/sh  # 进入正在运行的nginx服务容器中<br>
 
 docker-compose build         # 重新构建项目中的镜像<br>
