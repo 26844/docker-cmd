@@ -37,3 +37,4 @@ kubectl exec -it <pod-name> -c <container-name> -- bash # 通过bash获得 pod �
 kubectl get endpoints # 查看 endpoint 列表
 
 kubeadm token list # 查看已有的token
+
