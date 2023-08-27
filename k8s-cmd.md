@@ -2,7 +2,7 @@
 
 kubectl get node # 查看当前集群的所有的节点
 
-kubectl describe node node1 # 显示 Node 的详细信息（一般用不着）
+kubectl describe node node1 # 显示 Node 的详细信息
 
 kubectl get pod --all-namespaces # 查看所有的pod
 
