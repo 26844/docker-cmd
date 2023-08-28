@@ -6,6 +6,8 @@ kubectl get ns # 查看所有名字空间
 
 kubectl get node # 查看当前集群的所有的节点
 
+kubectl get pod -n default #查看default名字空间的pod
+
 kubectl describe node node1 # 显示 Node 的详细信息
 
 kubectl get pod --all-namespaces # 查看所有的pod
