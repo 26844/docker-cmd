@@ -4,7 +4,7 @@ kubectl create ns xxx #创建xxx名字空间
 
 kubectl get ns # 查看所有名字空间
 
-kubectl get node # 查看当前集群的所有的节点
+kubectl get nodes -o wide # 查看当前集群的所有的节点
 
 kubectl get pod -n default #查看default名字空间的pod
 
