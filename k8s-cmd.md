@@ -14,9 +14,11 @@ kubectl get pod --all-namespaces # 查看所有的pod
 
 kubectl get pods -o wide --all-namespaces # 查看pod的详细信息
 
+kubectl get pods --show-labels -n default # 查看每个 Pod 自动生成的标签
+
 kubectl get service # 查看所有创建的服务
 
-======================Deployment============================
+======================Deployment===========================
 
 kubectl get deploy -n xxx -o wide #查看xxx名字空间的deploy
 
