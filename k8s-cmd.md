@@ -22,9 +22,11 @@ kubectl get service # 查看所有创建的服务
 
 kubectl get deploy -n xxx -o wide #查看xxx名字空间的deploy
 
-kubectl describe deploy cloud-xxx -n xxx #查看xxx名字空间的cloud-xxx的deploy信息
+kubectl describe deploy cloud-xxx -n default #查看default名字空间的cloud-xxx的deploy信息
 
-kubectl get deployment cloud-xxx -o yaml -n xxx #查看xxx名字空间的cloud-xxx的deploy的yaml信息
+kubectl get deployment cloud-xxx -o yaml -n default #查看default名字空间的cloud-xxx的deploy的yaml信息
+
+kubectl get rs -n default #查看 Deployment 创建的 ReplicaSet
 
 
 kubectl replace --force -f xxx.yaml # 有yaml文件的重启
