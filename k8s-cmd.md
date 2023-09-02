@@ -1,6 +1,6 @@
-#### 学习kubernetes的核心，就是学习如何对Pod、控制器、Service、存储等各种资源进行操作
+### 学习kubernetes的核心，就是学习如何对Pod、控制器、Service、存储等各种资源进行操作
 
-#### namespaces
+### namespaces
   kubectl create ns xxx #创建xxx名字空间
   
   kubectl get ns # 查看所有名字空间
@@ -11,10 +11,10 @@
   
   kubectl describe ns default #查看default名字空间详情
 
-#### nodes
+### nodes
   kubectl get nodes -o wide # 查看当前集群的所有的节点
 
-#### pods
+### pods
   kubectl get pod -n default #查看default名字空间的pod
 
   kubectl describe node node1 # 显示 Node 的详细信息
@@ -27,7 +27,7 @@
 
   kubectl get service # 查看所有创建的服务
 
-#### Deployment
+### Deployment
 
   kubectl get deploy -n xxx -o wide #查看xxx名字空间的deploy
 
@@ -37,7 +37,7 @@
 
   kubectl get rs -n default #查看 Deployment 创建的 ReplicaSet
 
-#### services
+### services
   kubectl replace --force -f xxx.yaml # 有yaml文件的重启
 
   kubectl get pod <POD_NAME> -n <NAMESPACE> -o yaml | kubectl replace --force -f - # 无yaml文件的重启
