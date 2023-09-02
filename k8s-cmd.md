@@ -4,6 +4,12 @@
   kubectl create ns xxx #创建xxx名字空间
   
   kubectl get ns # 查看所有名字空间
+  
+  kubectl get ns default # 查看default名字空间
+  
+  kubectl get ns default -o yaml #指定输出yaml格式
+  
+  kubectl describe ns default #查看default名字空间详情
 
 #### nodes
   kubectl get nodes -o wide # 查看当前集群的所有的节点
