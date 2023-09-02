@@ -14,7 +14,7 @@
 #### nodes
   kubectl get nodes -o wide # 查看当前集群的所有的节点
 
-#### pod
+#### pods
   kubectl get pod -n default #查看default名字空间的pod
 
   kubectl describe node node1 # 显示 Node 的详细信息
