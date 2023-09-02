@@ -1,7 +1,8 @@
 #### 学习kubernetes的核心，就是学习如何对Pod、控制器、Service、存储等各种资源进行操作
 
 #### namespaces
-  kubectl create ns xxx #创建xxx名字空间 
+  kubectl create ns xxx #创建xxx名字空间
+  
   kubectl get ns # 查看所有名字空间
 
 #### nodes
