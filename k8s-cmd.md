@@ -43,6 +43,7 @@
 
 ### cluster management commands
   kubectl top node
+  
   kubectl top pod
 
   
