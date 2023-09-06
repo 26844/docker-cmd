@@ -40,6 +40,12 @@
   kubectl get rs -n default #查看 Deployment 创建的 ReplicaSet
 
 ### services
+
+### cluster management commands
+  kubectl top node
+  kubectl top pod
+
+  
   kubectl replace --force -f xxx.yaml # 有yaml文件的重启
 
   kubectl get pod <POD_NAME> -n <NAMESPACE> -o yaml | kubectl replace --force -f - # 无yaml文件的重启
