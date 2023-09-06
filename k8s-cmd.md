@@ -34,6 +34,8 @@
   kubectl describe deploy cloud-xxx -n default #查看default名字空间的cloud-xxx的deploy信息
 
   kubectl get deployment cloud-xxx -o yaml -n default #查看default名字空间的cloud-xxx的deploy的yaml信息
+  
+  kubectl edit deploy cloud-xxx -n default
 
   kubectl get rs -n default #查看 Deployment 创建的 ReplicaSet
 
