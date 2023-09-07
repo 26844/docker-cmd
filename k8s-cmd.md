@@ -42,12 +42,16 @@
 ### services
   kubectl get service # 查看所有创建的服务
 
+### ingress  
+
 ### cluster management commands
   kubectl top node
   
   kubectl top pod
 
-  
+
+
+### 还未整理  
   kubectl replace --force -f xxx.yaml # 有yaml文件的重启
 
   kubectl get pod <POD_NAME> -n <NAMESPACE> -o yaml | kubectl replace --force -f - # 无yaml文件的重启
