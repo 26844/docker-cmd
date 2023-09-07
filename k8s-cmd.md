@@ -25,7 +25,7 @@
 
   kubectl get pods --show-labels -n default # 查看每个 Pod 自动生成的标签
 
-  kubectl logs cloud-xxx-5997c45d75-nndqb --tail 100 -n default #实时查看default名字空间的pod滚动日志
+  kubectl logs cloud-xxx-5997c45d75-nndqb -f --tail 100 -n default #实时查看default名字空间的pod的100行滚动日志
 
 ### Deployment
 
