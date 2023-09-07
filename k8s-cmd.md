@@ -25,7 +25,7 @@
 
   kubectl get pods --show-labels -n default # 查看每个 Pod 自动生成的标签
 
-  kubectl get service # 查看所有创建的服务
+  kubectl logs cloud-xxx-5997c45d75-nndqb --tail 100 -n default #实时查看default名字空间的pod滚动日志
 
 ### Deployment
 
@@ -40,6 +40,7 @@
   kubectl get rs -n default #查看 Deployment 创建的 ReplicaSet
 
 ### services
+  kubectl get service # 查看所有创建的服务
 
 ### cluster management commands
   kubectl top node
