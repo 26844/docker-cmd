@@ -43,7 +43,7 @@
   kubectl get service # 查看所有创建的服务
 
 ### ingress  
-
+  xxx
 
 ### cluster management commands
   kubectl top node
