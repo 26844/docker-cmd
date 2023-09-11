@@ -6,7 +6,8 @@ docker rmi ubuntu:16.04      # 删除ubuntu16.04镜像<br>
 dcoker import - new-image-name:v1 < image.tar #导入本地镜像,可以给镜像指定新名称<br>
 docker save imageid > xxx.tar #保存镜像<br>
 docker save -o xxx.tar imagexx:latest #指定标签，保存镜像<br>
-docker load < xxx.tar #载入镜像,不能对载入的镜像重命名<br>
+docker load < xxx.tar #导入xxx镜像,不能对载入的镜像重命名<br>
+docker load -i xxx.tar #导入xxx镜像,不能对载入的镜像重命名<br>
 docker build -t nginx:v1 .     # 使用Dockerfile创建nginx镜像<br>
 
 # 容器命令
