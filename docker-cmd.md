@@ -31,6 +31,8 @@ docker-compose config        # 校验和查看 compose 文件 <br>
 # nginx相关
 docker-compose exec nginx nginx -t #测试nginx配置文件语法<br>
 docker-compose exec nginx  nginx -s reload  #nginx动态加载配置文件<br>
+docker-compose logs -f -n 100 nginx #滚动查看nginx近100条日志<br>
+or
 docker-compose logs -f --tail 100 nginx #滚动查看nginx近100条日志<br>
 
 # redis相关
